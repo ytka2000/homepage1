@@ -156,6 +156,14 @@ body {
 	text-align: justify;
 }
 
+.skills__block {
+	display: flex;
+}
+
+.skills__block__item {
+	flex: 1;
+}
+
 .skills__header {
 	color: var(--secondary-text-color);
 	text-align: center;
@@ -165,6 +173,15 @@ body {
 .skills__text {
 	color: var(--secondary-text-color);
 	text-align: justify;
+}
+
+.skills__items {
+	color: var(--secondary-text-color);
+}
+
+.skills__item {
+	display: list-item;
+	list-style-position: inside;
 }
 
 .experiences {
